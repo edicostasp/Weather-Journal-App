@@ -33,7 +33,7 @@ div{
 
 .title{
     height: 40px;
-    width: 200px;
+    width: 220px;
     padding: 10px 0px 0px 0px;
 }
 
@@ -49,6 +49,7 @@ div{
     /* font-size:  14px; */
     padding: 10px 0px 0px 0px;
 }
+
 .holder_headline{
     box-shadow: 2px 2px 4px 5px #444;   
 }
@@ -67,7 +68,7 @@ input, plans, textarea{
     display:block;
     float: inline-start;
     height: 20px;
-    width: 200px;
+    width: 220px;
     text-align: center;
     font-size: 14px;
     font-family: 'Oswald', sans-serif;
@@ -92,7 +93,7 @@ button{
 
 textarea{
     height: 40px;
-    width: 200px;
+    /* width: 220px; */
     /* font-size: 12px;
     font-family: 'Oswald', sans-serif;
     box-shadow: 2px 4px 5px #444; */
