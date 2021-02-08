@@ -3,7 +3,7 @@ const generate = document.getElementById('generate')
 const baseUrl = "https://api.openweathermap.org/data/2.5/weather?"
 const apiKey = "28736653ad6c42f248388523a9ff3d0e"
 let zip = "90291"; // default zip code
-//const axios = require('axios');
+const axios = require('axios');
 
 // Create a new date instance dynamically with JS
 let day = new Date();
@@ -16,7 +16,7 @@ function getWeatherUrl(){
 
 // get and post tasks
 const getWeatherData = async ( url = '')=>{
-      const response = await fetch(url);
+      const response = await axios.get(url);
       try {
         const newData = await response.json();
         return newData;
@@ -26,7 +26,7 @@ const getWeatherData = async ( url = '')=>{
     }
     
     const postData = async ( url = '', data = {})=>{
-      const response = await fetch(url, {
+      const response = await axios.post(url, {
         method: 'POST', 
         credentials: 'same-origin',
       headers: {

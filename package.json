@@ -1,0 +1,30 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "Weather Journal App Udacity Project",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edicostasp/Weather-Journal-App.git"
+  },
+  "keywords": [
+    "package.json",
+    "npm"
+  ],
+  "author": "Edmilson Costa edicostasp@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edicostasp/Weather-Journal-App/issues"
+  },
+  "homepage": "https://github.com/edicostasp/Weather-Journal-App#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
