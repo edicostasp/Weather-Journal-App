@@ -66,7 +66,6 @@ const getWeatherData = async ( url = '')=>{
       document.getElementById('temp').innerHTML = allData[lastIndex].temperature;
       document.getElementById('content').innerHTML = allData[lastIndex].user_response;
       document.getElementById('cityName').innerHTML = allData[lastIndex].cityName;
-      cityname.appendChild(newSpanElement);
      }catch(error){
       console.log("error", error);
     }
